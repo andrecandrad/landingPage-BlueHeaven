@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>FlexBox</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+           <a href=""><img src="img/blue-heaven.svg" alt="logo"></a>
+        </div>
+
+        <ul class="menu">
+            <li><a href="">HOME</a></li>
+            <li><a href="#">SOBRE</a></li>
+            <li><a href="#">PASSEIOS</a></li>
+            <li><a href="#">CONTATOS</a></li>
+        </ul>
+    </header>
+
+    <section class="banner">
+        <h1>DESCUBRA A SENSAÇÃO DE VOAR</h1>
+        <p>Salto de paraquedas, voo de asa-delta e passeio de balão.</p>
+        <button>AGENDAR</button>
+    </section>
+
+    <section class="passeios">
+        <h1>CONHEÇA OS PASSEIOS</h1>
+
+        <div class="container">
+            <div class="card">
+                <div class="card-banner baloon">
+                    <h2>BALONISMO</h2>
+                </div>
+                <div class="card-paragraph">
+                    <p>O paraquedismo é praticado por desportistas que saltam de aeronaves, ou lugares fixos (BASE jumping), fazendo uso de um paraquedas.</p>
+                    <a href="">Saiba Mais >></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-banner parachute">
+                    <h2>PARAQUEDAS</h2> 
+                </div>
+                <div class="card-paragraph">
+                    <p>Asa-delta é um tipo de aeronave composta por tubos de alumínio, que proporcionam a sua rigidez estrutural, e uma vela feita de tecidos.</p>
+                    <a href="">Saiba Mais >></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-banner asadelta">
+                    <h2>ASADELTA</h2>
+                </div>
+                <div class="card-paragraph">
+                    <p>O balonismo é um desporto aeronáutico praticado com um balão de ar quente. No Brasil, o esporte começou a popularizar-se a partir dos anos 90.</p>
+                    <a href="">Saiba Mais >></a>
+                </div>
+            </div>
+        </div>
+        <div class="btn-flex">
+            <button>VER TODOS</button>
+        </div>
+    </section>
+
+    <section class="depoimentos">
+        <h1>DEPOIMENTOS DOS CLIENTES</h1>
+        <div class="container-dep">
+            <div class="user-dep">
+                <img src="img/user.svg" alt="user-photo">
+                <div>
+                    <h2>Vicente Matos</h2>
+                    <p>"Curti muito poder saltar de paraquedas pela primeira vez, foi uma experiência incrível. O mais engraçado foi quando eu vi como ficou minha cara nas fotos depois."</p>
+                </div>
+            </div>
+
+            <div class="user-dep">
+                <img src="img/user.svg" alt="user-photo">
+                <div>
+                    <h2>Maria Fernanda</h2>
+                    <p>"Eu nunca vou esquecer essa sensação de estar lá nas alturas! Não é nada do jeito como eu imaginava. É mil vezes melhor. Uma sensação de liberdade sem igual!"</p>
+                </div>
+            </div>
+
+            <div class="user-dep">
+                <img src="img/user.svg" alt="user-photo">
+                <div>
+                    <h2>José Nascimento</h2>
+                    <p>"Sem palavras para descrever como foi o passeio de asa-delta com a Blue Heaven. No começo eu estava um pouco ansioso mas depois fui aproveitando cada momento lá em cima. Incrível."</p>
+                </div>
+            </div>
+
+            <div class="user-dep">
+                <img src="img/user.svg" alt="user-photo">
+                <div>
+                    <h2>Lucas Lemos</h2>
+                    <p>"Os instrutores da Blue Heaven são fantásticos. Tive a oportunidade de ir em tudo, nas duas primeiras vezes fui de paraquedas e de asa-delta e depois levei meu filho no balão."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-flex">
+            <button>SAIBA MAIS</button>
+        </div>
+
+    </section>
+
+    <section class="galeria">
+        <h1>GALERIA DE FOTOS</h1>
+        <div class="fotos">
+            <img src="img/balonismo.jpg" alt="balonismo">
+            <img src="img/paraquedas.jpg" alt="">
+            <img src="img/salto-duplo.jpg" alt="">
+            <img src="img/asadelta.jpg" alt="">
+        </div>
+
+        <div class="btn-flex">
+            <button>VER MAIS</button>
+        </div>
+    </section>
+
+
+    <section class="sobre">
+        <h1>SOBRE A EMPRESA</h1>
+        <div class="sobre-container">
+            <img src="img/blue-heaven-logo.svg" alt="logo">
+            <p>
+                A Blue Heaven surgiu de um dos mais antigos sonhos da humanidade: o de poder voar. Ainda que não tivéssemos asas, nós queríamos usar a nossa imaginação e criatividade para juntos poder construir equipamentos seguros que possibilitassem tornar o sonho de se aventurar pelo céu, uma realidade. E foi isso o que fizemos.
+            </p>
+        </div>
+        <div class="frase-ceo">
+            <h2>"Gosto de pensar que somos um grupo de sonhadores e que, para nós, nem mesmo o céu é o limite."</h2>
+            <p>- Fundador da Blue Heaven</p>
+        </div>
+
+        <div class="btn-flex">
+            <button>SOBRE</button>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info-div brd">
+            <h3>LOCALIZAÇÃO</h3>
+            <p>Rua Céu Azul, 123</p>
+            <p>Bairro das Nuvens</p>
+            <p>São Paulo - SP</p>
+            <p><a href="">Clique aqui para abrir no mapa.</a></p>
+        </div>
+        <div class="info-div brd">
+            <h3>MAPA DO SITE</h3>
+            <ul>
+                <li><a href="">- Home</a></li>
+                <li><a href="">- Sobre</a></li>
+                <li><a href="">- Passeios</a></li>
+                <li><a href="">- Contato</a></li>
+                <li><a href="">- Trabalhe Conosco</a></li>
+            </ul>
+        </div>
+        <div class="info-div brd">
+            <h3>CONTATO</h3>
+            <ul>
+                <li><a href="">+55 (31) 99999-9999</a></li>
+                <li><a href="">contato@blueheaven.com</a></li>
+            </ul>
+        </div>
+        <div class="info-div">
+            <h3>REDES SOCIAIS</h3>
+            <div class="icons">
+                <img src="img/facebook.png" alt="facebook">
+                <img src="img/whatsapp.png" alt="whatsapp">
+                <img src="img/instagram.png" alt="instagram">
+                <img src="img/youtube.png" alt="youtube">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2020 Blue Heaven. Todos os direitos reservados.</p>
+        <p>Este projeto teve como finalidade treinar o uso de FlexBox. <a href="https://github.com/andrecandrad">https://github.com/andrecandrad</a></p>
+    </footer>
+
+
+
+</body>
+</html>
